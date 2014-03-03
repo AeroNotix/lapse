@@ -8,8 +8,7 @@ from [JSON schemas](http://json-schema.org/).
 ```clojure
 
 lapse.core> (clojure.pprint/pprint (take 5 (gen/sample (schema->generator "item.json"))))
-nil
-nil
+
 ({:active true,
   :photo "",
   :taxes nil,
