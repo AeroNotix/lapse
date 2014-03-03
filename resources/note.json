@@ -1,0 +1,21 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Note schema",
+    "type": "object",
+    "required": true,
+    "properties": {
+        "id": {
+            "type": "string",
+            "pattern": "^[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}$",
+            "required": true
+        },
+        "version": {
+            "type": "string",
+            "pattern": "^[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}$",
+            "required": true
+        },
+        "dateTime": { "type": "string", "required": true },
+        "body":     { "type": "string", "required": true },
+        "public":   { "type": "boolean", "required": true }
+    }
+}
