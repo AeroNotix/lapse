@@ -99,6 +99,15 @@ lapse.core> (clojure.pprint/pprint (take 5 (gen/sample (schema->generator "item.
 nil
 ```
 
+TODO
+----
+
+
+* Patterns
+* Extra options
+  * e.g. minItems for array types, uniqueItems for array types. etc
+
+
 ## License
 
 Copyright © 2014 Aaron France
