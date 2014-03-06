@@ -33,7 +33,6 @@
         "active": {
             "type": "boolean",
             "required": true
-            }
         }
     }
 }
